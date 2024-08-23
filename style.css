@@ -959,3 +959,17 @@ a:hover {
     width: 600px;
     height: 300px;
 }
+
+.vegetable .vegetable-item .vegetable-img img {
+    transition: 0.5s;
+}
+.vegetable .vegetable-item .vegetable-img img:hover {
+    transform: scale(1.3);
+    /* object-fit: cover; */
+    /* transform: scale(1.02); */
+    /* width: 20px; */
+    overflow: hidden;
+}
+.vegetable .vegetable-item:hover {
+    box-shadow: 0 0 30px hsla(0, 0%, 0%, 0.4);
+}

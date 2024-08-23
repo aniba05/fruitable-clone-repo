@@ -1,0 +1,57 @@
+/* padding style */
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+
+/* color style */
+.text-white {
+    color: #fff !important;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+.rounded {
+    border-radius: 10px !important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+.fw-bold {
+    font-weight: 700 !important;
+}
+.vesitable .vesitable-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
+.vesitable .vesitable-item .vesitable-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+.vesitable .vesitable-item .vesitable-img img {
+    transition: 0.5s;
+}
+.vesitable .vesitable-item .vesitable-img img:hover {
+    transform: scale(1.2);
+}
+.owl-carousel .owl-item img {
+    display: block;
+    /* width: 100%;
+     */
+}
+.w-100 {
+    width: 100% !important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
